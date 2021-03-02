@@ -85,6 +85,6 @@ Just like with the comments, we need to use `Vue.set` to setup a new property in
 
 ## On Your Own
 
-You can now create a computed property that returns the average rating for the currently viewed comic. Once you have a computed average, you can show it in `index.html`.
+You can now create a computed property that returns the average rating for the currently viewed comic. Once you have a computed average, you can show it in `index.html`. Be sure to round the average -- none of your visitors want to see more than a single decimal point.
 
 You can also change the options on the star rating library so that it increments in steps of 0.5, does not show the current rating, and uses red stars. See [the props section in the Star Ratings docs](https://github.com/craigh411/vue-star-rating) for help and an example.
