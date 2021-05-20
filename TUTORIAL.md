@@ -324,9 +324,9 @@ If you tested the previous code we wrote, you'll notice the Next button doesn't 
 the latest comic. This is because an error occurs when loading the comic (view the console).  Now that we have a maximum, we can also use it when an error occurs fetching the comic from the API:
 
 ```
-      }).catch(error => {
-	       this.number = this.max;
-      });
+      } catch(error) {
+	this.number = this.max;
+      }
 ```
 We'll just load the comic with the largest available number.
 
